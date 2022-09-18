@@ -1,0 +1,177 @@
+
+.container-nosotros{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top:35px;
+
+}
+.item-uno{
+    width:45%;
+    height:auto;
+    min-width: 415px;
+    
+}
+.item-dos{
+    width:20%;
+    margin:20px;
+    
+    height:auto;
+    
+}
+.item-uno h1 {
+    margin: 20px;
+    font-size:38px;
+}
+.item-uno .p {
+    
+    margin-top: 18px;
+    padding:20px;
+    font-size:22px;
+    background-color:rgb(49, 55, 59);
+    color:white;
+}
+.item-uno p {
+    padding:20px;
+    
+    margin-top: 18px;
+    font-size:22px;
+
+}
+.item-uno img {
+    margin-top:30px;
+    width:100%;
+    margin-bottom: 30px;
+}
+.item-dos{
+    width:20%;
+    margin:20px;
+    
+    height:auto;
+    background-color:rgb(44, 53, 59);
+    color:white;
+    height:50%;
+    margin-left: 50px;
+    min-width: 300px;
+    
+    
+}
+.item-dos h1 {
+    margin: 20px;
+    font-size:38px;
+   
+}
+.item-dos p {
+    
+    margin: 15px;
+    margin-top:30px;
+    font-size:22px;
+    padding: 10px;;
+    
+  
+}
+.item-servicio{
+    width:100%;
+    padding:20px;
+    
+    margin-top: 18px;
+    font-size:22px;
+    background-color:rgb(212, 211, 211);
+    margin-bottom:40px ;
+    transition:all 0.3s;
+}
+.item-servicio p{
+    font-size:22px;
+ 
+}
+.item-servicio h4{
+    font-size:22px;
+    padding: 20px;
+ 
+}
+.item-servicio:hover{
+    transform: scale(1.05);
+}
+@media screen and (max-width:572px){
+    .item-uno{
+        width:80%;
+        height:auto;
+        min-width: 340px;
+        
+       
+       
+        
+    }
+    .item-uno h1 {
+        margin: 20px;
+        font-size:30px;
+    }
+    .item-uno .p {
+        
+        margin-top: 18px;
+        padding:10px;
+        font-size:17px;
+        background-color:rgb(49, 55, 59);
+        color:white;
+    }
+    .item-uno p {
+        padding:10px;
+        
+        margin-top: 18px;
+        font-size:17px;
+    
+    }
+    .item-uno img {
+        margin-top:30px;
+        width:100%;
+        margin-bottom: 30px;
+    }
+    .item-dos{
+        width:80%;
+        margin:20px;
+        
+        height:auto;
+        background-color:rgb(43, 53, 61);
+        color:white;
+        height:50%;
+        margin-left: 0px;
+       
+        
+        
+    }
+    .item-dos h1 {
+        margin: 20px;
+        font-size:30px;
+       
+    }
+    .item-dos p {
+        
+        margin: 15px;
+        margin-top:30px;
+        font-size:17px;
+        
+        
+      
+    }
+    .item-servicio{
+        width:98%;
+        padding:10px;
+        
+        margin-top: 18px;
+        background-color:rgb(212, 211, 211);
+        margin-bottom:40px ;
+    }
+    .item-servicio p{
+        font-size:18px;
+     
+    }
+    .item-servicio h4{
+        font-size:18px;
+        padding: 10px;
+     
+    }
+
+}
+

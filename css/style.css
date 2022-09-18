@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Lato,sans-serif;
+    
 
 }
 
@@ -21,15 +23,19 @@
     display: none;
 }
 .nav-logo{
-    width: auto;
+    width: 50%;
     height: 50px;
+    text-align: start;
+
+    
 }
 
 .nav-logo h1 {
     font-size: 38px;
     color: aliceblue;
-    margin-left: -160px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left:50px;
+    
+    font-family: Lato,sans-serif;
     
 }
 .nav-logo h1 b {
@@ -47,7 +53,7 @@
     
 }
 .nav-ul{
-    width:690px;
+    width:50%;
     height: 70px;
 
     display: flex;
@@ -58,17 +64,18 @@
 
 .nav-ul a{
     display: flex;
-    width: 210px;
+    width: auto;
     height:70px;
     align-items: center;
     text-decoration: none;
+    
     
     
 }
 .nav-ul a ion-icon{
     font-size: 25px;
     color: white;
-    
+    display:none;
     
     
 }
@@ -77,8 +84,9 @@
 
 }
 .nav-ul a h1{
-    padding: 20px;
+    padding: 10px;
     color: azure;
+    font-family: Lato,sans-serif;
    
     
     
@@ -86,7 +94,7 @@
 .container-img{
     width: 100%;
     height: 600px;
-    background-image: url("../recursos/img/WhatsApp\ Image\ 2022-08-31\ at\ 3.14.04\ PM.jpeg");
+    background-image: url("../recursos/img/WhatsApp\ Image\ 2022-09-17\ at\ 11.45.13\ PM.jpeg");
     background-size: 100% 600px;
     
    
@@ -94,16 +102,17 @@
 .container-text {
     margin: auto;
     width: 600px;
-    padding-top: 150px;
+    padding-top: 280px;
     align-items: center;
     text-align: center;
     color: rgb(255, 255, 255);
     z-index: 3;
     position: relative;
+    font-family: Lato,sans-serif;
     
 }
 .container-text h1{
-    font-size: 70px;
+    font-size: 60px;
 
 }
 .container-text p{
@@ -118,35 +127,40 @@
     background-color: rgba(51, 51, 51, 0.582);
 }
 .container-search{
-    padding: 15px;
+    padding: 25px;
     width: 100%;
     height: auto;
     background-color: rgb(37, 37, 37);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    font-family: Lato,sans-serif;
+    align-items: center;
 
 }
 .container-search h1{
-    font-size: 40px;
+    font-size: 33px;
     color: aliceblue;
 }
 .container-search input{
-    width: 350px;
+    width: 400px;
     height: 45px;
-    font-size: 30px;
-    border-radius: 5px;
+    font-size: 20px;
+    border-radius: 2px;
 }
 .container-search .container-sub{
     display: flex;
 }
 
 .container-search button{
-    width: 150px;
+    width: 170px;
     height: 45px;
     background-color: orangered;
-    margin-left: 15px;;
-    border-radius: 5px;
+    margin-left: 5px;;
+    border-radius: 2px;
+    font-size:18px;
+        color:white;
+        
 }
 
 .container-search button:hover{
@@ -155,49 +169,172 @@
     
 }
 .container-items{
-    margin-top: 100px;;
+    margin-top: 10px;;
     width: 100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 80px;;
+    
 
 }
 .item{
+    font-family: Lato,sans-serif;
     padding: 45px;;
-    width: 634px;
+    width: 33.3%;
     height: auto;
     text-align: center;
     margin: auto;
 }
 .item img{
-    width:300px;
-    height:250px;
+    width:270px;
+    height:220px;
     
 }
 .item p{
     font-size: 15px;
+    font-weight: 15px;
 }
 .footer{
-
-    padding-top: 15px;
+    font-family: Lato,sans-serif;
+    padding-top: 30px;
     
     width: 100%;
-    height: 50px;
+    height: auto;
     text-align: center;
     
     background-color: rgb(0, 105, 167);
 }
 .footer a{
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
     color: aliceblue;
 
 }
-@media screen and (){
+@media screen and (max-width:1200px){
     .nav{
+        width: 100%;
+        height: auto;;
+        padding-top: 10px;
+        background-color: rgb(44, 44, 44);
         display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 4px solid rgb(7, 174, 252);
         flex-wrap: wrap;
+        
+        
+    }
+    .logo-menu{
+        display: none;
+    }
+    .nav-logo{
+        width: 50%;
+        height: 30px;
+        text-align: start;
+        
+
+    
+        
+    }
+    
+    .nav-logo h1 {
+        margin-left: 0;
+        font-size: 30px;
+        color: aliceblue;
+       
+        
+        font-family: Lato,sans-serif;
+        
+    }
+    .nav-logo h1 b {
+        margin-left: 5px;;
+        margin-right: 8px;
+        font-weight: 10px;
+    
+        
+        
+    }
+    .nav-logo h1 span {
+        
+        color:rgb(7, 174, 252) ;
+        
+        
+    }
+    .nav-ul{
+        width:50%;
+        height: 60px;
+   
+        display: flex;
+        
+        align-content: center;
+    
+    }
+    
+    .nav-ul a{
+        display: flex;
+        height:65px;
+        align-items: center;
+        text-decoration: none;
+        
+        
+        
+        
+    }
+    .nav-ul a ion-icon{
+        font-size: 17px;
+        color: white;
+        display:none;
+        
+        
+    }
+    .nav-ul a h1:hover{
+        color: rgb(0, 204, 255);
+    
+    }
+    .nav-ul a h1{
+        
+        font-size: 23px;
+        color: azure;
+        margin:-4px;
+        font-family: Lato,sans-serif;
+       
+        
+        
+    }
+    .container-img{
+        width: 100%;
+        height: 320px;
+        background-image: url("../recursos/img/WhatsApp\ Image\ 2022-09-17\ at\ 11.45.13\ PM.jpeg");
+        background-size: 100% 320px;
+        
+       
+    }
+    .container-text {
+        margin: auto;
+        width: 320px;
+        padding-top: 120px;
+        align-items: center;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        z-index: 3;
+        position: relative;
+        font-family: Lato,sans-serif;
+        
+    }
+    .container-text h1{
+        font-size: 35px;
+    
+    }
+    .container-text p{
+        font-size: 15px;
+    
+    }
+    .container-background{
+        width: 100%;
+        height: 320px;
+        position: absolute;
+        z-index: 2;
+        background-color: rgba(51, 51, 51, 0.582);
     }
     .container-search{
         padding: 10px;
@@ -207,24 +344,33 @@
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
+        font-family: Lato,sans-serif;
+        align-items: center;
     
     }
     .container-search h1{
-        font-size: 35px;
+        font-size: 25px;
         color: aliceblue;
-        margin-bottom: 10px;
     }
     .container-search input{
-        width: 250px;
-        height: 40px;
-        font-size: 25px;
+        width: 330px;
+        height: 35px;
+        font-size: 20px;
+        border-radius: 2px;
+    }
+    .container-search .container-sub{
+        display: flex;
     }
     
     .container-search button{
-        width: 180px;
-        height: 40px;
+        width: 170px;
+        height: 35px;
         background-color: orangered;
-        margin-left: 15px;;
+        margin-left: 5px;;
+        border-radius: 2px;
+        font-size:18px;
+            color:white;
+            
     }
     
     .container-search button:hover{
@@ -233,58 +379,514 @@
         
     }
     .container-items{
-        margin-top: 50px;;
+        margin-top: 10px;;
         width: 100%;
         height: auto;
         display: flex;
         flex-wrap: wrap;
-        margin-bottom: 40px;;
+        
+        
     
     }
     .item{
+        font-family: Lato,sans-serif;
         padding: 45px;;
-        width: 634px;
-        height: auto;
-        text-align: center;
-        margin: auto;
-    }
-    .item img{
-        width:300px;
-        height:250px;
-        
-    }
-    .item p{
-        font-size: 15px;
-    }
-  
-    .footer{
-    
-        padding: 15px;
-        
         width: 100%;
         height: auto;
         text-align: center;
+        margin: auto;
+        
+   
+        
+        
+    }
+    .item img{
+        width:250px;
+        height:200px;
+        
+    }
+    .item p{
+        width:60%;
+        margin:auto;
+        
+        font-size: 15px;
+        font-weight: 15px;
+    }
+    .footer{
+        font-family: Lato,sans-serif;
+
+        padding: 25px;
+        width: 100%;
+        height: 50px;
+        text-align: center;
         
         background-color: rgb(0, 105, 167);
+        
     }
     .footer a{
-        font-size: 25px;
+        font-size: 17px;
         text-decoration: none;
         color: aliceblue;
     
     }
 
-
-   
 }
 
- @media screen and (max-width:512px){
+@media screen and (max-width:992px){
+    .nav{
+        width: 100%;
+        height:auto;;
+        padding: 18px;
+        background-color: rgb(44, 44, 44);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 4px solid rgb(7, 174, 252);
+        flex-wrap: wrap;
+        
+        
+    }
+    .logo-menu{
+        display: none;
+    }
+    .nav-logo{
+        width: 50%;
+        height: 40px;
+        text-align: start;
+        
+
+    
+        
+    }
+    
+    .nav-logo h1 {
+        margin-left: 0;
+        font-size: 30px;
+        color: aliceblue;
+       
+        
+        font-family: Lato,sans-serif;
+        
+    }
+    .nav-logo h1 b {
+        margin-left: 5px;;
+        margin-right: 8px;
+        font-weight: 10px;
+    
+        
+        
+    }
+    .nav-logo h1 span {
+        
+        color:rgb(7, 174, 252) ;
+        
+        
+    }
+    .nav-ul{
+        width:50%;
+        height: 60px;
+   
+        display: flex;
+        
+        align-content: center;
+    
+    }
+    
+    .nav-ul a{
+        display: flex;
+        height:55px;
+        align-items: center;
+        text-decoration: none;
+        
+        
+        
+        
+    }
+    .nav-ul a ion-icon{
+        font-size: 17px;
+        color: white;
+        display:none;
+        
+        
+    }
+    .nav-ul a h1:hover{
+        color: rgb(0, 204, 255);
+    
+    }
+    .nav-ul a h1{
+        
+        font-size: 18px;
+        color: azure;
+        margin:-4px;
+        font-family: Lato,sans-serif;
+       
+        
+        
+    }
+    .container-img{
+        width: 100%;
+        height: 320px;
+        background-image: url("../recursos/img/WhatsApp\ Image\ 2022-09-17\ at\ 11.45.13\ PM.jpeg");
+        background-size: 100% 320px;
+        
+       
+    }
+    .container-text {
+        margin: auto;
+        width: 320px;
+        padding-top: 120px;
+        align-items: center;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        z-index: 3;
+        position: relative;
+        font-family: Lato,sans-serif;
+        
+    }
+    .container-text h1{
+        font-size: 35px;
+    
+    }
+    .container-text p{
+        font-size: 15px;
+    
+    }
+    .container-background{
+        width: 100%;
+        height: 320px;
+        position: absolute;
+        z-index: 2;
+        background-color: rgba(51, 51, 51, 0.582);
+    }
+    .container-search{
+        padding: 10px;
+        width: 100%;
+        height: auto;
+        background-color: rgb(37, 37, 37);
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        font-family: Lato,sans-serif;
+        align-items: center;
+    
+    }
+    .container-search h1{
+        font-size: 25px;
+        color: aliceblue;
+    }
+    .container-search input{
+        width: 330px;
+        height: 35px;
+        font-size: 20px;
+        border-radius: 2px;
+    }
+    .container-search .container-sub{
+        display: flex;
+    }
+    
+    .container-search button{
+        width: 170px;
+        height: 35px;
+        background-color: orangered;
+        margin-left: 5px;;
+        border-radius: 2px;
+        font-size:18px;
+            color:white;
+            
+    }
+    
+    .container-search button:hover{
+    
+        background-color: rgb(192, 52, 2);
+        
+    }
+    .container-items{
+        margin-top: 10px;;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    
+    }
+    .item{
+        font-family: Lato,sans-serif;
+        padding: 45px;;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: auto;
+        
+   
+        
+        
+    }
+    .item img{
+        width:250px;
+        height:200px;
+        
+    }
+    .item p{
+        width:60%;
+        margin:auto;
+        
+        font-size: 15px;
+        font-weight: 15px;
+    }
+    .footer{
+        font-family: Lato,sans-serif;
+
+        padding: 25px;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        
+        background-color: rgb(0, 105, 167);
+        
+    }
+    .footer a{
+        font-size: 17px;
+        text-decoration: none;
+        color: aliceblue;
+    
+    }
+
+}
+
+
+@media screen and (max-width:768px){
+    .nav{
+        width: 100%;
+        height: 70px;;
+        padding-top: 10px;
+        background-color: rgb(44, 44, 44);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 4px solid rgb(7, 174, 252);
+        flex-wrap: wrap;
+        
+        
+    }
+    .logo-menu{
+        display: none;
+    }
+    .nav-logo{
+        width: 50%;
+        height: 50px;
+        text-align: start;
+        
+
+    
+        
+    }
+    
+    .nav-logo h1 {
+        margin-left: 0;
+        font-size: 26px;
+        color: aliceblue;
+       
+        
+        font-family: Lato,sans-serif;
+        
+    }
+    .nav-logo h1 b {
+        margin-left: 5px;;
+        margin-right: 8px;
+        font-weight: 10px;
+    
+        
+        
+    }
+    .nav-logo h1 span {
+        
+        color:rgb(7, 174, 252) ;
+        
+        
+    }
+    .nav-ul{
+        width:50%;
+        height: 60px;
+   
+        display: flex;
+        
+        align-content: center;
+    
+    }
+    
+    .nav-ul a{
+        display: flex;
+        height:40px;
+        align-items: center;
+        text-decoration: none;
+        
+        
+        
+        
+    }
+    .nav-ul a ion-icon{
+        font-size: 17px;
+        color: white;
+        display:none;
+        
+        
+    }
+    .nav-ul a h1:hover{
+        color: rgb(0, 204, 255);
+    
+    }
+    .nav-ul a h1{
+        
+        font-size: 15px;
+        color: azure;
+        margin:-4px;
+        font-family: Lato,sans-serif;
+       
+        
+        
+    }
+    .container-img{
+        width: 100%;
+        height: 320px;
+        background-image: url("../recursos/img/WhatsApp\ Image\ 2022-09-17\ at\ 11.45.13\ PM.jpeg");
+        background-size: 100% 320px;
+        
+       
+    }
+    .container-text {
+        margin: auto;
+        width: 320px;
+        padding-top: 120px;
+        align-items: center;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        z-index: 3;
+        position: relative;
+        font-family: Lato,sans-serif;
+        
+    }
+    .container-text h1{
+        font-size: 35px;
+    
+    }
+    .container-text p{
+        font-size: 15px;
+    
+    }
+    .container-background{
+        width: 100%;
+        height: 320px;
+        position: absolute;
+        z-index: 2;
+        background-color: rgba(51, 51, 51, 0.582);
+    }
+    .container-search{
+        padding: 10px;
+        width: 100%;
+        height: auto;
+        background-color: rgb(37, 37, 37);
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        font-family: Lato,sans-serif;
+        align-items: center;
+    
+    }
+    .container-search h1{
+        font-size: 25px;
+        color: aliceblue;
+    }
+    .container-search input{
+        width: 330px;
+        height: 35px;
+        font-size: 20px;
+        border-radius: 2px;
+    }
+    .container-search .container-sub{
+        display: flex;
+    }
+    
+    .container-search button{
+        width: 170px;
+        height: 35px;
+        background-color: orangered;
+        margin-left: 5px;;
+        border-radius: 2px;
+        font-size:18px;
+            color:white;
+            
+    }
+    
+    .container-search button:hover{
+    
+        background-color: rgb(192, 52, 2);
+        
+    }
+    .container-items{
+        margin-top: 10px;;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    
+    }
+    .item{
+        font-family: Lato,sans-serif;
+        padding: 45px;;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: auto;
+        
+   
+        
+        
+    }
+    .item img{
+        width:250px;
+        height:200px;
+        
+    }
+    .item p{
+        width:60%;
+        margin:auto;
+        
+        font-size: 15px;
+        font-weight: 15px;
+    }
+    .footer{
+        font-family: Lato,sans-serif;
+
+        padding: 25px;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        
+        background-color: rgb(0, 105, 167);
+        
+    }
+    .footer a{
+        font-size: 17px;
+        text-decoration: none;
+        color: aliceblue;
+    
+    }
+
+}
+
+
+
+
+ @media screen and (max-width:576px){
     
     
      .header{
          width: 100%;
          height: auto;
-         overflow: hidden;
+        
          background-color: rgb(255, 0, 0);
          position: relative;
          z-index: 4;
@@ -307,7 +909,13 @@
      }
     
 
-    
+     .nav-ul a ion-icon{
+        font-size: 25px;
+        color: white;
+        display:block;
+        
+        
+    }
   
     
      .nav-logo{
@@ -415,6 +1023,7 @@
         
         
     }
+    
     .nav-ul a ion-icon {
         color: rgb(7, 174, 252);
         font-size: 20px;
@@ -427,7 +1036,7 @@
     .container-img{
         width: 100%;
         height: 280px;
-        background-image: url("../recursos/img/WhatsApp\ Image\ 2022-08-31\ at\ 3.14.04\ PM.jpeg");
+        background-image: url("../recursos/img/WhatsApp\ Image\ 2022-09-17\ at\ 11.45.13\ PM.jpeg");
         background-size: 100% 280px;
         
        
@@ -502,7 +1111,7 @@
     }
     .item{
         padding: 25px;;
-        width: 400px;
+        width: 100%;
         height: auto;
         text-align: center;
     }
@@ -514,20 +1123,21 @@
     .item p{
         font-size: 15px;
     }
-    .footer{
     
-        padding: 15px;
-        
-        width: 100%;
-        height: auto;
-        text-align: center;
-        
+    .footer{
         background-color: rgb(0, 105, 167);
+        padding-top:28px;
+       
+        width:100%;
+        height:50px;
+        background-color: rgb(0, 105, 167);
+        
     }
     .footer a{
-        font-size: 25px;
-        text-decoration: none;
-        color: aliceblue;
+
+        font-size: 15px;
+       
+        
     
     }
 
