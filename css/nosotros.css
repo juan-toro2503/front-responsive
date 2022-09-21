@@ -18,7 +18,7 @@
     width:20%;
     margin:20px;
     
-    height:auto;
+    height:500px;
     
 }
 .item-uno h1 {
@@ -49,26 +49,35 @@
     width:20%;
     margin:20px;
     
-    height:auto;
-    background-color:rgb(44, 53, 59);
     color:white;
-    height:50%;
+    height:auto;
     margin-left: 50px;
     min-width: 300px;
     
     
+    
+    
+}
+.item-dos .container-info{
+    width: 100%;
+    height:auto;
+    background-color:rgb(44, 53, 59);
+    padding-top: 10px;;
 }
 .item-dos h1 {
     margin: 20px;
+    
     font-size:38px;
    
 }
 .item-dos p {
     
     margin: 15px;
-    margin-top:30px;
-    font-size:22px;
+    margin-top:10px;
+    font-size:16px;
     padding: 10px;;
+    margin-bottom: 30px;;
+    
     
   
 }
@@ -93,6 +102,48 @@
 }
 .item-servicio:hover{
     transform: scale(1.05);
+}
+
+.item-uno {
+    
+    padding:10px;
+   
+
+}
+.item-uno h2{
+    
+   font-size:35px
+   
+
+}
+.item-uno h3{
+    margin-top: 15px;;
+    
+
+}
+
+.item-uno input{
+    margin-top: 5px;;
+    width:100%;
+    height:35px;
+    border:1px solid gray;
+
+}
+.item-uno textarea{
+    width:100%;
+}
+.item-uno button{
+    width:100%;
+    height: 35px;
+    margin-top:15px;
+    margin-bottom:15px;
+    background-color: orangered;
+    border:none;
+    color:white;
+}
+.item-uno button:hover{
+    background-color: rgb(175, 63, 22);
+   
 }
 @media screen and (max-width:572px){
     .item-uno{
@@ -133,13 +184,19 @@
         margin:20px;
         
         height:auto;
-        background-color:rgb(43, 53, 61);
+      
         color:white;
-        height:50%;
+        height:auto;
         margin-left: 0px;
        
         
         
+    }
+    .item-dos .container-info{
+        width: 100%;
+        height:auto;
+        background-color:rgb(44, 53, 59);
+        padding-top: 10px;;
     }
     .item-dos h1 {
         margin: 20px;
@@ -159,9 +216,9 @@
         width:98%;
         padding:10px;
         
-        margin-top: 18px;
+        margin-top: 10px;
         background-color:rgb(212, 211, 211);
-        margin-bottom:40px ;
+        margin-bottom:20px ;
     }
     .item-servicio p{
         font-size:18px;
